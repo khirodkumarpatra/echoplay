@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+.main {
+    background-image: url("assets/bgimg.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 580px;
+    position: relative;
+
+}
+
+
+body {
+    background-color: rgb(13, 13, 13);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    max-width: 80vw;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.main .box {
+    height: 580px;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav img {
+    color: red;
+    width: 200px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 3px 20px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.btn-red-sm {
+    padding: 3px 20px;
+    font-weight: 400;
+    color: white;
+    background-color: red;
+    border-radius: 4px;
+    border: 1px solid red;
+    cursor: pointer;
+}
+.btn-red{
+     padding: 3px 20px;
+    font-weight: 400;
+    color: white;
+    background-color: red;
+    border-radius: 4px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 100px);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+.hero-buttonss{
+    width: 100px;
+    height: 100px;
+    padding: 6px 30px;
+}
+.hero input{
+    padding: 4px 30px;
+    border-radius: 4px;
+    border: 1px solid gray;
+}
+.line{
+    width: 100%;
+    height: 8px;
+    background-color: gray;
+    top: 0;
+    margin-top: -40px;
+
+}
+.selection{
+   max-width: 80vw;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.line1{
+    width: 100%;
+    height: 8px;
+    background-color: gray;
+    top: 0;
+    margin-top: 0px;
+}
+follow1 {
+    justify-content: center;
+    margin-top: 20px;
+    color: white;
+    position: absolute; 
+
+
+}
+/* .follow2{
+    display: flex;
+} */
